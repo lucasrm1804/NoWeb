@@ -1,4 +1,5 @@
 import React from "react";
+import "./header.css"
 import grupo13 from "../../imagens/Group 13.png";
 import frame from "../../imagens/Frame.png";
 import chevronDown from "../../imagens/chevron-down.png";
