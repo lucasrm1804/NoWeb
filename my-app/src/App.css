@@ -6,20 +6,20 @@ body {
 }
 
 header {
-  background-color: #FFF;
+  background-color: #FFFFFF;
   box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.1);
-  background: #fff;
+  background: #FFFFFF;
   position: fixed;
   width: 100%;
   top: 0; 
 }
 
 .frame1 {
-  background: #FFF;
+  background: #FFFFFF;
 }
 
 .grupo14 {
-  background-color: #ffffff;
+  background-color: #FFFFFF;
   display: flex;
   justify-content: space-between;
   width: 560px  ;
@@ -28,7 +28,7 @@ header {
 }
 
 .grupo40{
-  background-color: #ffffff;
+  background-color: #FFFFFF;
   display: flex;
   justify-content: space-between;
   max-width: 100%;
@@ -59,3 +59,64 @@ header {
   position: relative;
 }
 
+ul {
+  font-family: Gotham;
+  padding-left: 25px;
+  padding-right: 25px;
+  color: #202332;
+  display: flex;
+  align-items: center;
+  margin-left: auto;
+  margin-right: auto; 
+}
+
+li {
+  margin-right: 3rem;
+  margin-left: auto;
+  margin-right: auto; 
+  list-style-type: none;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 22px;
+  letter-spacing: -0.03em;
+  text-align: left;
+
+}
+
+li img{
+  color:white;
+  width: 12px;
+  height: 12px;
+  padding: 2px;
+}
+
+.home{
+  font-size: 30px;
+  font-weight: 500;
+  line-height: 18px;
+  letter-spacing: -0.03em;
+  text-align: center;
+}
+
+.sublinhado{
+  border-radius: 30px;
+  background-color: #FFFFFF;
+  padding: 2px;  
+}
+
+.contato {
+  font-family: Gotham;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 38px;
+  letter-spacing: -0.03em;
+  text-align: center;
+  color: #FFFFFF;
+  background-color:#202332;
+  width: 142px;
+  height: 42px;
+  top: 19px;
+  left: 1376px;
+  border-radius: 10px;
+  margin-left: 10px;
+}

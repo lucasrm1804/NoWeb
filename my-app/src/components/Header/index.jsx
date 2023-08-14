@@ -1,6 +1,7 @@
 import React from "react";
 import grupo13 from "../../imagens/Group 13.png";
 import frame from "../../imagens/Frame.png";
+import chevronDown from "../../imagens/chevron-down.png";
 
 
 function Header() {
@@ -14,7 +15,24 @@ function Header() {
         </div>
 
         <nav className="retangulo45">
-        oiashdfouih´
+          <ul>
+            <li>
+              <span className="home" href="#">Home</span>
+              <div className="sublinhado" />
+            </li>
+            <li>
+              <div>
+                <span href="#">Categoria<img src={chevronDown}/></span>
+              </div>
+            </li>
+            <li>
+              <span href="#">Sobre</span>
+            </li>
+            <li>
+              <span href="#">Localização</span>
+            </li>
+            <span className="contato" href="#">Contato</span>
+          </ul>
         </nav>
       </div>
       
