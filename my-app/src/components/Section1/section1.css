@@ -86,3 +86,19 @@
 .conjuntoMB {
   height: 50px;
 }
+
+.saibaMais {
+  display: flex;
+  margin-left: 120px;
+  width: 70%;
+  font-family: Gotham;
+  font-size: 18px;
+  font-weight: 400px;
+  line-height: 38px;
+  letter-spacing: -0.03em;
+  text-align: left;
+  margin-bottom: 30px;
+  max-width: fit-content;
+  min-width: 40%;
+  padding: 10px 15px;
+}
