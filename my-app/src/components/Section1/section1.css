@@ -15,11 +15,12 @@
   height: 100%;
   position: absolute;
   background: rgba(32, 35, 50, 0.93);
+  display: flex;
 }
 
 .section1 p, .section1 h1, .section1 h2 {
   margin-left: 120px;
-  width: 40%;
+  width: 70%;
   font-family: Gotham;
   font-size: 18px;
   font-weight: 400px;
@@ -41,7 +42,7 @@
   box-shadow: 0px 0px 10px rgba(251, 175, 23,12);
   max-width: fit-content;
   min-width: 25%;
-  padding: 10px 10px;
+  padding: 10px 15px;
   border-radius: 15px;
   font-size: 18px;
   font-weight: 700;
@@ -68,4 +69,16 @@
   text-align: center; 
   display: grid;
   place-items: center;
+}
+
+.textos {
+  height: 100%;
+  width: 50%;
+}
+
+.fotoMulher {
+  background-image: url(../../imagens/Group\ 19.png), url(../../imagens/Group\ 19.png);  
+  background-position: 15% 100%, 100% 50%;
+  background-repeat: no-repeat;
+  padding: 0px 100px
 }
