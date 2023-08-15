@@ -1,0 +1,19 @@
+.section1{
+  color: white;
+  background-image: url("../../imagens/fundo.jpeg");
+  width: auto;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 801px;
+  opacity: 0.93;
+  margin-top: 80px;
+  background-size: cover;
+  position: relative;
+}
+
+.opac{
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  background: rgba(32, 35, 50, 0.93);
+}
