@@ -1,6 +1,5 @@
 import React from "react";
 import "./section1.css"
-// import grupo19 from "../../imagens/Group 19.png";
 import fotoMulher from "../../imagens/foto mulher layout 1.png"
 
 function Section1() {
@@ -12,11 +11,13 @@ function Section1() {
           <p>Aqui na Elétrica J. Santos queremos trazer mais luz para o seu dia a dia! Temos produtos para toda sua casa com a melhor qualidade e atendimento da região!</p>
           <h2 className="chamada1">VEJA NOSSOS PRODUTOS</h2>
           <h2 className="chamada2">NOS CONHEÇA MELHOR</h2>
-        </div>
+          <div>
+            <span>Role para ver mais</span>
 
+          </div>
+        </div>
           <div className="conjuntoMB">
-            <img className="fotoMulher" src={fotoMulher}>
-            </img>
+            <img className="fotoMulher" src={fotoMulher} />
           </div>
       </div>
     </section>
